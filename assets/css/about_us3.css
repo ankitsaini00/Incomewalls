@@ -54,7 +54,8 @@
 }
 .int_about_section2 .about_contentbox {
     padding: 0;
-    padding-left: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .about_content{
     padding-bottom: 40px;
@@ -217,6 +218,9 @@
 
 
 @media(max-width: 992px){
+    *{
+        height: auto;
+    }
     .vision_image_wrapper{
         padding-top: 50px;
     }
