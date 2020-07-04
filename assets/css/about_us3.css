@@ -1,0 +1,223 @@
+.int_about_page_title{
+    background-image: url(../nk/s2.jpg);   
+}
+.int_about_page_title::after{
+    background-color: rgba(218, 223, 223, 0.24);
+}
+.int_about_page_title .int_bread_crumbs h1{
+    color: white;
+    font-weight: 500;
+    
+}
+
+.int_about_page_start{
+    padding: 70px 35px;
+}
+.int_about_page_start .int_heading{
+    margin: 0;
+}
+.int_about_page_start .int_heading h4{
+    color: #2b7cb7;
+    text-align: center;
+}
+.int_about_page_start .about_head1{
+    font-size: 32px;
+    color: #222222;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.int_about_page_start span{
+    border-bottom: solid 2px #2b7cb7;
+}
+.int_about_page_start .about_details{
+    color: #555555!important;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 0 0 0;
+    
+    
+}
+
+.int_about_style2.int_about_section2 {
+    background: url(../nk/about_us1.jpg) no-repeat center left;
+}
+.achievement_list_wrapper {
+    padding-top: 15px;
+}
+.achievement_list_wrapper .list_no{
+    border: none;
+}
+.achievement_list_wrapper .list_content{
+    font-size: 16px;
+    font-style: italic;
+    height: 100px;
+}
+.int_about_section2 .about_contentbox {
+    padding: 0;
+    padding-left: 50px;
+}
+.about_content{
+    padding-bottom: 40px;
+    font-size: 16px;
+}
+
+.int_about_continue .about_deatils{
+    color: #555555;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 0 0 0;
+}
+.int_about_continue .btn_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.int_about_continue .int_btn{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    background: #2b7cb7;
+}
+
+.int_mission_vision_wrapper{
+    padding: 70px 35px;
+}
+.int_mission_vision_wrapper .int_heading{
+    margin: 0;
+}
+.int_mission_vision_wrapper .int_heading h4{
+    color: #2b7cb7;
+    text-align: center;
+}
+.int_mission_vision_wrapper .about_head1{
+    font-size: 32px;
+    color: #222222;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.int_mission_vision_wrapper .about_head1 span{
+    border-bottom: solid 2px #2b7cb7;
+}
+
+.int_mission_vision_wrapper .mission_heading, .int_mission_vision_wrapper .vision_heading{
+    padding: 30px 0 30px 0;
+    color: #222222;
+    margin-bottom: 35px;
+    margin: 0;
+}
+.int_mission_vision_wrapper .mission_details{
+    color: #555555;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.int_mission_vision_wrapper .vision_details{
+    color: #555555;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+
+.list_no_wrap{
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.list_no{
+    border: none;
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: lightgrey;
+    text-align: center;
+    padding: 15px;
+}
+.list_content p{
+    font-size: 16px;
+    font-style: italic;
+    color: #222222;
+    min-height: 120px;
+    padding-bottom: 20px;
+}
+
+.md_ceo_note_wrapper{
+    min-height: 350px;
+    background-image: url(../nk/1920x626-min.jpg);
+    position:relative;
+    z-index: -2;
+}
+.md_ceo_note_wrapper::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: #0b69ac9f;
+}
+
+.md_ceo_note_wrapper h2{
+    padding: 50px 0 30px 0;
+    margin: 0;
+    color: white;
+    text-align: center;
+    border-bottom: #222222;
+}
+
+.md_ceo_note_wrapper .note1{
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.md_ceo_note_wrapper .note2{
+    padding-top: 10px;
+    font-style: italic;
+    font-size: 18px;
+    text-align: right;
+}
+
+.int_testimonial_wrapper .int_heading{
+    color: #2b7cb7;
+    margin: 0;
+    text-align: center;
+}
+.int_testimonial_wrapper .about_head1{
+    font-size: 32px;
+    color: #222222;
+    margin-top: 6px;
+    margin-bottom: 35px;
+    text-align: center;   
+}
+
+.int_testimonial_wrapper .about_head1 span{
+    border-bottom: solid 2px #2b7cb7;
+}
+
+.int_aboutus_service_section .int_heading{
+    color: #2b7cb7;
+    margin: 0;
+    text-align: center;
+}
+.int_aboutus_service_section .about_head1{
+    font-size: 32px;
+    color: #222222;
+    margin-top: 6px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+.int_aboutus_service_section .about_head1 span{
+    border-bottom: solid 2px #2b7cb7;
+}
+.int_aboutus_service_section .int_service_box2{
+    min-height: 330px;
+}
+
+
+@media(max-width: 992px){
+    .vision_image_wrapper{
+        padding-top: 50px;
+    }
+}
