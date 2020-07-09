@@ -202,16 +202,18 @@ hr{
     padding-bottom: 20px;
     
 }
-.vision_image_wrapper{
+#vision_image{
     position: relative;
 }
-.vision_image_wrapper::before{
+#vision_image::before{
     position: absolute;
     content: "";
     height: 100%;
-    width: 140%;
+    width: 135%;
     top: 0;
     left: 0;
+    outline: 5px solid rgb(245, 244, 244) !important;
+    outline-offset: -20px;
     background-image: url(../nk/vision_2.jpg);
     background-size: cover;
     background-position: center;
@@ -307,13 +309,13 @@ hr{
     *{
         height: auto;
     }
-    .vision_image_wrapper{
+    #vision_image{
         margin-top: 40px;
         padding-top: 30px;
     }
-    .vision_image_wrapper::before{
-        left: -20%;
-        right: -20%;
+    #vision_image::before{
+        left: -8%;
+        width: 116%;
        
     }
 }
