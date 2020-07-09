@@ -205,13 +205,15 @@ hr{
 .vision_image_wrapper{
     position: relative;
 }
-.vision_image_wrapper::before{
+#vision_image::before{
     position: absolute;
     content: "";
     height: 100%;
-    width: 140%;
+    width: 135%;
     top: 0;
     left: 0;
+    outline: 5px solid rgb(233, 232, 232);
+    outline-offset: -20px;
     background-image: url(../nk/vision_2.jpg);
     background-size: cover;
     background-position: center;
