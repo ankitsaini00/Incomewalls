@@ -315,11 +315,15 @@ hr{
     }
     #vision_image::before{
         left: -8%;
-<<<<<<< HEAD
         width: 116%;
-=======
-       width: 116%;
->>>>>>> 7290081fce7b6a769b84d883c56b022409ddc8e2
+       
+    }
+}
+
+@media(max-width: 468px){
+    #vision_image::before{
+        left: -15%;
+        width: 130%;
        
     }
 }
