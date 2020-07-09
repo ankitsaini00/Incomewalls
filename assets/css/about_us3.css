@@ -1,8 +1,9 @@
+
 .int_about_page_title{
     background-image: url(../nk/s2.jpg);   
 }
 .int_about_page_title::after{
-    background-color: rgba(218, 223, 223, 0.24);
+    background-color: rgba(27, 27, 27, 0.459);
 }
 .int_about_page_title .int_bread_crumbs h1{
     color: white;
@@ -12,6 +13,9 @@
 
 .int_about_page_start{
     padding: 70px 35px;
+    background-image: url(../images/index2_team_back.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 .int_about_page_start .int_heading{
     margin: 0;
@@ -55,7 +59,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: lightgrey;
+    background: rgb(43, 124, 183);
     text-align: center;
     padding: 15px;
 }
@@ -77,6 +81,12 @@
     font-size: 16px;
 }
 
+.int_about_continue{
+    background-image: url(../images/index2_team_back.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
 .int_about_continue .about_deatils{
     color: #555555;
     font-size: 16px;
@@ -94,8 +104,33 @@
     background: #2b7cb7;
 }
 
+hr{
+    border-top: 1px solid rgba(43, 124, 183,0.5);
+}
+
+
+.mission_container{
+    position: relative;
+    z-index: 4;
+}
+.mission_container::before{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    width: calc(100% + 50px);
+    height: calc(100% + 50px);
+    transform: translate(-50%,-50%);
+    border-bottom: 1px solid #2b7cb7;
+    z-index: -1;
+
+}
+
 .int_mission_vision_wrapper{
     padding: 70px 35px;
+    background-image: url(../images/index2_team_back.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 .int_mission_vision_wrapper .int_heading{
     margin: 0;
@@ -114,13 +149,22 @@
     border-bottom: solid 2px #2b7cb7;
 }
 
-.int_mission_vision_wrapper .mission_heading, .int_mission_vision_wrapper .vision_heading{
+.int_mission_vision_wrapper .mission_heading {
+    
     padding: 30px 0 30px 0;
+    color: #222222;
+    margin-bottom: 35px;
+    margin: 0;
+    margin-top: 50px;
+}
+.int_mission_vision_wrapper .vision_heading{
+    padding: 70px 0 30px 0;
     color: #222222;
     margin-bottom: 35px;
     margin: 0;
 }
 .int_mission_vision_wrapper .mission_details{
+
     color: #555555;
     font-size: 16px;
     font-weight: 500;
@@ -146,7 +190,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: lightgrey;
+    background: rgb(43, 124, 183);
     text-align: center;
     padding: 15px;
 }
@@ -156,6 +200,21 @@
     color: #222222;
     min-height: 120px;
     padding-bottom: 20px;
+    
+}
+.vision_image_wrapper{
+    position: relative;
+}
+.vision_image_wrapper::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 140%;
+    top: 0;
+    left: 0;
+    background-image: url(../nk/vision_2.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .md_ceo_note_wrapper{
@@ -172,7 +231,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background-color: #0b69ac9f;
+    background-color: rgba(18, 19, 19, 0.788);
 }
 
 .md_ceo_note_wrapper h2{
@@ -195,6 +254,12 @@
     text-align: right;
 }
 
+.int_testimonial_wrapper{
+    background-image: url(../images/index2_team_back.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
 .int_testimonial_wrapper .int_heading{
     color: #2b7cb7;
     margin: 0;
@@ -210,6 +275,12 @@
 
 .int_testimonial_wrapper .about_head1 span{
     border-bottom: solid 2px #2b7cb7;
+}
+
+.int_aboutus_service_section{
+    background-image: url(../images/index2_team_back.jpg);
+    background-size: cover;
+    background-position: center center;
 }
 
 .int_aboutus_service_section .int_heading{
@@ -237,6 +308,12 @@
         height: auto;
     }
     .vision_image_wrapper{
-        padding-top: 50px;
+        margin-top: 40px;
+        padding-top: 30px;
+    }
+    .vision_image_wrapper::before{
+        left: -20%;
+        right: -20%;
+       
     }
 }

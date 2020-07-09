@@ -25,6 +25,9 @@ Author: Kamleshyadav
 /********************************************************
 1. body start
  *******************************************************/
+html{
+    scroll-behavior: smooth;
+}
 body {
 	font-family: 'Yantramanav', sans-serif;
 	font-weight:400;
@@ -4614,10 +4617,10 @@ span.close_menu_int {
     font-size: 18px;
 }
 .int_home_crumbs ul li a {
-    color: #222222;
+    color: rgb(233, 232, 232);
 }
 .int_home_crumbs ul li span {
-    color: #2b7cb7;
+    color: #6fbbf1;
 	text-transform: capitalize;
 }
 .int_about_style2.int_about_section2 {
